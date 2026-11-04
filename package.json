@@ -19,5 +19,11 @@
     "@types/node": "^22.20.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "commander": "^14.0.3"
+  },
+  "bin": {
+    "dbbackup": "dist/index.js"
   }
 }
